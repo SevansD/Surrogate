@@ -1,4 +1,6 @@
-# Surrogate ![](https://travis-ci.org/SevansD/Surrogate.svg?branch=master)
+# Surrogate ![](https://travis-ci.org/SevansD/Surrogate.svg?branch=master) [![codecov](https://codecov.io/gh/SevansD/Surrogate/branch/master/graph/badge.svg)](https://codecov.io/gh/SevansD/Surrogate)
+
+
 
 Package for replace character in string by replacement map.
 
