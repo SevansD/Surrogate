@@ -49,8 +49,12 @@ func SubMultiMap(source string, replacement map[string][]string) []string {
 				}
 			}
 		} else {
-			for _, cx := range result {
-				rr = append(rr, cx+string(c))
+			if len(result) > 0 {
+				for _, cx := range result {
+					rr = append(rr, cx+string(c))
+				}
+			} else {
+				rr = append(rr, string(c))
 			}
 		}
 		result = make([]string, len(rr))
