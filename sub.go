@@ -92,7 +92,7 @@ func removeDuplicates(elements []string) []string {
 	var result []string
 
 	for v := range elements {
-		if encountered[elements[v]] == true {
+		if encountered[elements[v]] {
 			continue
 		} else {
 			encountered[elements[v]] = true
